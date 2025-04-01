@@ -1,0 +1,96 @@
+@media (max-width:900px){
+
+body {
+ margin:0 auto;
+ padding:auto;
+ box-sizing:border-box;
+ border:2px red solid ;
+ background-color:#000000F7;
+}
+
+
+/*placar*/
+#placar{
+ display:grid;
+ grid-template-columns:2fr 2fr 2fr;
+ grid-template-rows:2fr 2fr 2fr;
+ 
+}
+#placar div{
+ border-radius:20%;
+ border:solid red 2px;
+ text-align:center;
+ font-size:130%;
+ background-color:#09DF3A;
+ font-weight:bold;
+}
+
+/*telA*/
+#tela{
+ background-color:#000000ED;
+ display:flex;
+ justify-content:center;
+ flex-wrap:wrap;
+ border-radius:30%;
+ 
+ 
+}
+#tela button{
+ background-color:black;
+}
+
+/*titulo*/
+h1{
+ text-align:center;
+ background-color:gold;
+ border-radius:20%;
+ border:solid yellow 30%;
+}
+
+/*console*/
+#botoes{
+ margin-top:3%;
+ display:flex;
+ justify-content:space-evenly;
+ color:red;
+ border-radius:30px;
+ 
+}
+
+#tesoura{
+ flex-grow:2;
+ width:200%;
+ background-color:#D70909;
+ border-radius:10px;
+ 
+}
+#pedra{
+ background-color:#D70909;
+ border-radius:10px;
+}
+#papel{
+ background-color:#D70909;
+ border-radius:10px;
+}
+div img {
+ width:30%;
+ background-color:#D70909;
+ transition:all 4s ease;
+ 
+}
+
+
+/*animacao*/
+
+#titulo{
+color:gold;
+text-align:center;
+border-radius:10px;
+font-weight:bold;
+font-size:200%;
+border:solid yellow 3px;
+display:block;
+margin:3%;
+}
+
+}
